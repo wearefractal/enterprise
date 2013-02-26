@@ -1,14 +1,12 @@
-![status](https://secure.travis-ci.org/wearefractal/APPNAME.png?branch=master)
-
 ## Information
 
 <table>
 <tr> 
-<td>Package</td><td>APPNAME</td>
+<td>Package</td><td>enterprise</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>NOTHING HERE YET</td>
+<td>Cloudscale enterprisejs</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -19,12 +17,12 @@
 ## Usage
 
 ```coffee-script
-NOTHING HERE YET
+enterprise = require 'enterprise'
+
+# this scales your enterprise to the cloud
+
+enterprise.scale()
 ```
-
-## Examples
-
-You can view more examples in the [example folder.](https://github.com/wearefractal/APPNAME/tree/master/examples)
 
 ## LICENSE
 
